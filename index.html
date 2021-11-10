@@ -4,22 +4,98 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css" type="text/css">
-    <title>Intellivest</title>
+    <title>Project</title>
 
 </head>
 <body>
+    <section id="home">
     <header class="nav">
-        
+        <div id="logo">
+            <img src="./assests/logo3.png" alt="Vfoods.com">
+        </div>
             <ul>
                 <li><a href="#">HOME</a></li>
                 <li><a href="#">BLOGS</a></li>
-                <li><a href="#">ABOUT US</a></li>
-                <li><a href="#">CONTACT US</a></li>
+                <li><a href="#aboutus">ABOUT US</a></li>
+                <li><a href="#footer">CONTACT US</a></li>
             </ul>
     </header>
     <div class="row">
-    <video src="./assests/Analysis - 31251.mp4" muted loop autoplay >
+    <video src="assests/Analysis - 31251.mp4" muted loop autoplay >
     </video>
 </div>
+    <form class="form">
+    <label for="userid" class="hi">User ID:</label><br>
+  <input type="text" id="userid" name="userid"><br><br>
+  <label for="pass" class="hi">Password:</label><br>
+  <input type="password" id="pass" name="pass"><br>
+  <a href="./signup.html" id="newuser">New User?</a><br><br>
+  <button class="hi" id = "Submit">
+    Submit
+  </button>
+</form>
+</section>
+<section id="aboutus">
+<p id="abt"><u>ABOUT US</u></p><br><br>
+<div id="con">
+<p>Intellivest as the name suggests helps you in intelligent investing. We help you in finding 
+    the perfect platform for all investment you can make as well as the right knowledge of investing.
+    We intent to work for providing you the best experience with trading and investment </p><br>
+    <p>From telling about different stocks to analysing different platforms, we offer services like:</p><br>
+    <div><i class="fa fa-user"></i>
+        <p type="button">
+            <ol type="a">
+            <li>Trustable Platform to start your journey with.</li><br>
+            <li>Comparison between Stocks and Crypto for intelligent investing. </li><br>
+            <li>Right stocks to invest in.</li><br>
+        </ol>
+        </p>
+    </p>
+    <p style="font-size: 40px; 
+    font-size: 55px;
+    text-shadow: 3px 3px powderblue;"><b><u>Types of Investments</u></b></p>
+    <div id="services">
+        <div class="box">
+            <img src="./assests/Crypto (1).jpg" alt="Crypto">
+            <h2 class="h-secondary center">Cryptocurrency</h2>
+            <p class="center">A cryptocurrency is a collection of binary data which is designed 
+                to work as a medium of exchange where  in a 
+                 computerized database using strong cryptography to secure transaction records, 
+                 to control the creation of additional coins, and to verify the transfer of coin ownership.</p>
+        </div>
+        <div class="box">
+            <img src="./assests/mutual-funds.jpg" alt="MF">
+            <h2 class="h-secondary center">Mutual Funds</h2>
+            <p class="center">A mutual fund is a type of financial vehicle made up of a pool of money collected from many investors
+                 to invest in securities like stocks, bonds, money market instruments, and other assets.These 
+                 Mutual funds are operated by professional money managers.</p>
+        </div>
+        <div class="box">
+            <img src="./assests/stocks.jpg" alt="Stocks">
+            <h2 class="h-secondary center">Stocks</h2>
+            <p class="center">A stock is a general term used to describe the ownership certificates of any company. 
+                A share, on the other hand, refers to the stock certificate of a particular company.
+                Stocks are of two types—common and preferred.</p>
+        </div>
+    </div>
+</section>
+</div>
+</section>
+
+<section id="blogs">
+    <div >
+
+    </div>
+</section>
+
+<div class="footer">
+    <div id="footer">
+      <p>
+        <h1>Contact Us</h1>
+        <a href="https://beta-labs.in">Beta-labs</a><br /><br />
+        <a href="#top">Back to top</a>
+      </p>
+    </div>
+  </div>
 </body>
 </html>
