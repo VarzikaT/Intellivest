@@ -1,0 +1,47 @@
+* {
+    margin: 0px;
+    background-color: rgb(15, 15, 41);
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flexbox;
+}
+
+.cont {
+    box-sizing: border-box;
+    border: white 2px;
+    border-left: 200px;
+    border-right: 200px;
+    background-color: rgb(41, 41, 80);
+    margin-top: 0px;
+    height: 100%;
+    width: 100%;
+    display: flexbox;
+    padding-top: 9px;
+}
+
+.hi {
+    color: aliceblue;
+    background-color: rgb(64, 67, 70);
+}
+
+input,
+option,
+select,
+label {
+    color: aliceblue;
+}
+
+label {
+    font-size: 21px;
+    background-color: rgb(64, 67, 70);
+}
+
+#title {
+    color: aliceblue;
+    font-size: 55px;
+    text-align: center;
+    align-items: center;
+    margin-top: 10px;
+    text-shadow: 3px 3px rgb(139, 139, 235);
+}

@@ -1,101 +1,208 @@
 <!DOCTYPE html>
 <html lang="en">
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css" type="text/css">
-    <title>Project</title>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css" type="text/css">
+<title>Project</title>
 
 </head>
+
 <body>
     <section id="home">
-    <header class="nav">
-        <div id="logo">
-            <img src="./assests/logo3.png" alt="Vfoods.com">
-        </div>
+        <header class="nav">
+            <div id="logo">
+                <img src="./assests/logo3.png" alt="Vfoods.com">
+            </div>
             <ul>
                 <li><a href="#">HOME</a></li>
-                <li><a href="#">BLOGS</a></li>
+                <li><a href="#blogs">BLOGS</a></li>
                 <li><a href="#aboutus">ABOUT US</a></li>
                 <li><a href="#footer">CONTACT US</a></li>
             </ul>
-    </header>
-    <div class="row">
-    <video src="assests/Analysis - 31251.mp4" muted loop autoplay >
+        </header>
+        <div class="row">
+            <video src="assests/Analysis - 31251.mp4" muted loop autoplay>
     </video>
-</div>
-    <form class="form">
-    <label for="userid" class="hi">User ID:</label><br>
-  <input type="text" id="userid" name="userid"><br><br>
-  <label for="pass" class="hi">Password:</label><br>
-  <input type="password" id="pass" name="pass"><br>
-  <a href="./signup.html" id="newuser">New User?</a><br><br>
-  <button class="hi" id = "Submit">
+        </div>
+        <div class="container">
+            <form class="form">
+                <label for="userid" class="hi">User ID:</label><br>
+                <input type="text" id="userid" name="userid"><br><br>
+                <label for="pass" class="hi">Password:</label><br>
+                <input type="password" id="pass" name="pass"><br>
+                <a href="./signup.html" id="newuser">New User?</a><br><br>
+                <form method="get" action="./login.html" class="hi">
+                    <button type="submit" class="hi" href="./login.html">
     Submit
   </button>
-</form>
-</section>
-<section id="aboutus">
-<p id="abt"><u>ABOUT US</u></p><br><br>
-<div id="con">
-<p>Intellivest as the name suggests helps you in intelligent investing. We help you in finding 
-    the perfect platform for all investment you can make as well as the right knowledge of investing.
-    We intent to work for providing you the best experience with trading and investment </p><br>
-    <p>From telling about different stocks to analysing different platforms, we offer services like:</p><br>
-    <div><i class="fa fa-user"></i>
-        <p type="button">
-            <ol type="a">
-            <li>Trustable Platform to start your journey with.</li><br>
-            <li>Comparison between Stocks and Crypto for intelligent investing. </li><br>
-            <li>Right stocks to invest in.</li><br>
-        </ol>
-        </p>
-    </p>
-    <p style="font-size: 40px; 
+                </form>
+            </form>
+        </div>
+    </section>
+    <section id="aboutus">
+        <p id="abt"><u>ABOUT US</u></p><br><br>
+        <div id="con">
+            <p>Intellivest as the name suggests helps you in intelligent investing. We help you in finding the perfect platform for all investment you can make as well as the right knowledge of investing. We intent to work for providing you the best experience
+                with trading and investment </p><br>
+            <p>From telling about different stocks to analysing different platforms, we offer services like:</p><br>
+            <div><i class="fa fa-user"></i>
+                <p type="button">
+                    <ol type="a">
+                        <li>Trustable Platform to start your journey with.</li><br>
+                        <li>Comparison between Stocks and Crypto for intelligent investing. </li><br>
+                        <li>Right stocks to invest in.</li><br>
+                    </ol>
+                </p>
+                </p>
+                <p style="font-size: 40px; 
     font-size: 55px;
     text-shadow: 3px 3px powderblue;"><b><u>Types of Investments</u></b></p>
-    <div id="services">
-        <div class="box">
-            <img src="./assests/Crypto (1).jpg" alt="Crypto">
-            <h2 class="h-secondary center">Cryptocurrency</h2>
-            <p class="center">A cryptocurrency is a collection of binary data which is designed 
-                to work as a medium of exchange where  in a 
-                 computerized database using strong cryptography to secure transaction records, 
-                 to control the creation of additional coins, and to verify the transfer of coin ownership.</p>
-        </div>
-        <div class="box">
-            <img src="./assests/mutual-funds.jpg" alt="MF">
-            <h2 class="h-secondary center">Mutual Funds</h2>
-            <p class="center">A mutual fund is a type of financial vehicle made up of a pool of money collected from many investors
-                 to invest in securities like stocks, bonds, money market instruments, and other assets.These 
-                 Mutual funds are operated by professional money managers.</p>
-        </div>
-        <div class="box">
-            <img src="./assests/stocks.jpg" alt="Stocks">
-            <h2 class="h-secondary center">Stocks</h2>
-            <p class="center">A stock is a general term used to describe the ownership certificates of any company. 
-                A share, on the other hand, refers to the stock certificate of a particular company.
-                Stocks are of two types—common and preferred.</p>
-        </div>
+                <div id="services">
+                    <div class="box">
+                        <img src="./assests/Crypto (1).jpg" alt="Crypto">
+                        <h2 class="h-secondary center">Cryptocurrency</h2>
+                        <p class="center">A cryptocurrency is a collection of binary data which is designed to work as a medium of exchange where in a computerized database using strong cryptography to secure transaction records, to control the creation of additional coins,
+                            and to verify the transfer of coin ownership.</p>
+                    </div>
+                    <div class="box">
+                        <img src="./assests/mutual-funds.jpg" alt="MF">
+                        <h2 class="h-secondary center">Mutual Funds</h2>
+                        <p class="center">A mutual fund is a type of financial vehicle made up of a pool of money collected from many investors to invest in securities like stocks, bonds, money market instruments, and other assets.These Mutual funds are operated by professional
+                            money managers.</p>
+                    </div>
+                    <div class="box">
+                        <img src="./assests/stocks.jpg" alt="Stocks">
+                        <h2 class="h-secondary center">Stocks</h2>
+                        <p class="center">A stock is a general term used to describe the ownership certificates of any company. A share, on the other hand, refers to the stock certificate of a particular company. Stocks are of two types—common and preferred.</p>
+                    </div>
+                </div>
+    </section>
     </div>
-</section>
-</div>
+    </section>
+
+    <section id="blogs">
+        <div>
+            <p style="font-size: 55px; text-shadow: 3px 3px powderblue; "><u>BLOGS</u></p>
+            <!--<p class="blogtitle">Cryptocurrency</p><br>
+        <p>
+            A cryptocurrency is a digital or virtual currency that is secured by cryptography, which
+         makes it nearly impossible to counterfeit or double-spend. Many cryptocurrencies are decentralized
+          networks based on blockchain technology—a distributed ledger enforced by a disparate network of computers.
+        </p>
+        </p>
+        <p class="blogtitle">Stocks</p><br>
+        <p>
+
+        </p>
+        <p class="blogtitle">mutual-funds</p><br>
+        <p>
+
+        </p>
+        <p class="blogtitle">NFT</p><br>
+    </div> -->
+            <div id="grid-container">
+                <h1>Technologies Used</h1><br>
+                <div class="grid">
+                    <h4>Cryptocurrency</h4>
+                    <p class="blog">
+                        A cryptocurrency is a digital or virtual currency that is secured by cryptography, which makes it nearly impossible to counterfeit or double-spend. Many cryptocurrencies are decentralized networks based on blockchain technology.
+                    </p>
+
+                    <a href="https://www.investopedia.com/terms/c/cryptocurrency.asp">Read More</a
+          >
+        </div>
+        <div class="grid">
+          
+          <h4>Mutual Funds</h4>
+          <p class="blog">
+            A mutual fund is a company that pools money from many investors and invests the money in securities such
+             as stocks, bonds, and short-term debt. The combined holdings of the mutual fund are known as its portfolio.
+          </p>
+
+          <a href="https://www.investor.gov/introduction-investing/investing-basics/investment-products/mutual-funds-and-exchange-traded-1"
+            >Read More</a
+          >
+        </div>
+        <div class="grid">
+          <h4>Stocks</h4>
+          <p class="blog">
+            A stock (also known as equity) is a security that represents the 
+            ownership of a fraction of a corporation. This entitles the owner of 
+            the stock to a proportion of the corporation's assets and profits equal to how much stock they own. 
+          </p>
+
+          <a href="https://www.investopedia.com/terms/s/stock.asp"
+            >Read More</a
+          >
+        </div>
+        <div class="grid">
+          <h4>Bonds</h4>
+          <p class="blog">
+            A bond is a loan an investor makes to a corporation, government, federal agency or other 
+            organization in exchange for interest payments over a specified term plus repayment of 
+            principal at the bond’s maturity date.
+          </p>
+
+          <a
+            href="https://www.finra.org/investors/learn-to-invest/types-investments/bonds"
+            >Read More</a
+          >
+        </div>
+      </div>
 </section>
 
-<section id="blogs">
-    <div >
-
-    </div>
-</section>
-
-<div class="footer">
+<div class="footer1">
     <div id="footer">
-      <p>
-        <h1>Contact Us</h1>
-        <a href="https://beta-labs.in">Beta-labs</a><br /><br />
-        <a href="#top">Back to top</a>
-      </p>
+        <section class="link2">
+            <h2 style="margin-bottom:20px;">Quick Links</h2>
+            <ul>
+                <li><a href="#" style="color:cadetblue">About Us</a></li>
+                    <li><a href="#" style="color:cadetblue">Contact Us</a></li>
+                    <li><a href="#" style="color:cadetblue">Contribute</a></li>
+                    <li><a href="#" style="color:cadetblue">Privacy Policy</a></li>
+                    <li><a href="#" style="color:cadetblue">Sitemap</a></li>
+                    <li><a href="#" style="color:cadetblue">Disclaimer</a></li>
+                    </ul>
+    </section>
+    <section class="link3">
+        <h2 style="margin-bottom:20px;">Contact Us</h2>
+        <ul>
+            <li><i class="fa fa-home" style="margin-right:10px; "></i><span style="color: cadetblue;">89,Mathura,Uttar Pradesh,India</span></li>
+            <li><i class="fa fa-envelope" style="margin-right:10px; "></i><span style="color:cadetblue">intellivestindia@gmail.com</span></li>
+            <li><i class="fa fa-phone-square" style="margin-right:10px; "></i><span style="color:cadetblue">Mobile: 1234554321</span></li>
+            <li><i class="fa fa-facebook-official" style="margin-right:10px; "></i><a href="#" style="list-style:none;text-decoration:none;color:cadetblue ">Intellivest</a></li>
+
+        </ul>
+    </section>
+
+
+
+    <!-- <hr width="100%" noshade/> -->
+    <section class="sec-2">
+        <h2>Register For Free</h2>
+        <a href="#" style="font-size:20px">Signup!</a>
+    </section>
+    <!-- <hr width="100%" noshade/> -->
+    <section class="sec-3">
+        <ul>
+            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fa fa-google"></i></a></li>
+            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+            <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+        </ul>
+    </section>
+    <section class="sec-4">
+        <p>Copyright &copy; All Rights Reserved By
+            <a href="https://www.beta-labs.in" style="color:rgb(211, 194, 194);text-decoration:none;list-style:none;">beta-labs.in</a>
+        </p>
+    </section>
+    </section>
+    <!-- <a href="#top">Back to top</a> -->
+    </p>
     </div>
-  </div>
+    </div>
 </body>
+
 </html>
