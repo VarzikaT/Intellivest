@@ -22,7 +22,7 @@
 
 .hi {
     color: aliceblue;
-    background-color: rgb(64, 67, 70);
+    background-color:rgb(41, 41, 80);
 }
 
 input,
@@ -34,7 +34,7 @@ label {
 
 label {
     font-size: 21px;
-    background-color: rgb(64, 67, 70);
+    background-color: rgb(41, 41, 80);
 }
 
 #title {
